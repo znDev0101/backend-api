@@ -42,6 +42,10 @@ app.use(
   })
 );
 
+app.get("/", async (req, res) => {
+  res.json("Welcome to login api");
+});
+
 // Routes
 app.post("/api/signup", async (req, res) => {
   const { email, password } = req.body;
