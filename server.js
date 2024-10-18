@@ -20,7 +20,7 @@ const pool = new Pool({
 
 // Middleware
 app.use(express.json());
-app.use(bodyParser.json());
+
 app.use(
   cors({
     origin: "https://test-frontend-tahap1.vercel.app",
