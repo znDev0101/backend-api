@@ -23,7 +23,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://test-frontend-tahap1.vercel.app/login",
+    origin: "https://test-frontend-tahap1.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
