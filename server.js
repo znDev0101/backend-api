@@ -25,6 +25,7 @@ app.use(
   cors({
     origin: "https://test-frontend-tahap1.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: "Content-Type,Authorization",
     credentials: true,
   })
 );
